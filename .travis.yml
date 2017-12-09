@@ -10,6 +10,6 @@ install:
 script:
   - make test
 
-after_succes:
+after_success:
   - make docker_build
   - make docker_push
