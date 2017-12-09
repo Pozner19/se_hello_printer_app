@@ -4,10 +4,10 @@ ADD requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
 RUN mkdir -p /usr/scr/hello_world_printer/
-ADD hello_world/ /usr/scr/hellol_world_printer/hello_world/
+ADD hello_world/ /usr/scr/hello_world_printer/hello_world/
 
 ADD main.py /usr/scr/hello_world_printer/
 RUN ls /usr/scr/hello_world_printer
 
-CMD PYTHONPATH=$PYTHONPATH:/usr/scr/hellol_world_printer \
-    FLASK_APP=hellol_world flask run --host=0.0.0.0.
+CMD PYTHONPATH=$PYTHONPATH:/usr/scr/hello_world_printer \
+    FLASK_APP=hello_world flask run --host=0.0.0.0.
