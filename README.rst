@@ -1,7 +1,7 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
@@ -9,13 +9,13 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ::
 
     source /usr/bin/virtualenvwrapper.sh
-    mkvirtualenv wsb-simple-flask-app
+    mkdir -p /usr/local/lib /usr/local/bin
     pip install -r requirements.txt
     pip install -r test_requirements.txt
 
 - Uruchamianie applikacji:
 
-  :: 
+  ::
 
     # jako zwykły program
     python main.py
@@ -26,6 +26,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
   ::
+  mv heroku-cli-v6.15.26-5726b6f-linux-x64 /usr/local/lib/heroku
 
     PYTHONPATH=. py.test
     PYTHONPATH=. py.test  --verbose -s
@@ -56,10 +57,10 @@ Pomocnicze
     pip install -U pip
     pip install virtualenv
     pip install virtualenvwrapper
-  
+
 - Instalacja docker-a:
 
-  :: 
+  ::
 
     yum remove docker \
         docker-common \
@@ -81,3 +82,14 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+
+Dodanie linku STATUS CAKE:
+
+.. image:: https://app.statuscake.com/button/index.php?Track=KnXSMCFrDk&Days=1&Design=1" /></a>
+    :target: https://www.statuscake.com
+
+Dodawanie linku travis:
+
+.. image:: https://travis-ci.org/Pozner19/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/Pozner19/se_hello_printer_app
