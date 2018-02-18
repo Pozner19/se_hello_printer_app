@@ -84,12 +84,12 @@ Materiały
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 
 
-Dodanie linku STATUS CAKE:
+Dodanie monitoringu STATUS CAKE:
 
-.. image:: https://app.statuscake.com/AllStatus.php?tid=2935386
+.. image:: https://app.statuscake.com/button/index.php?Track=KnXSMCFrDk&Days=1&Design=1" /></a>
     :target: https://www.statuscake.com
 
-Dodawanie linku travis:
+Dodawanie monitoringu travis:
 
 .. image:: https://travis-ci.org/Pozner19/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/Pozner19/se_hello_printer_app
