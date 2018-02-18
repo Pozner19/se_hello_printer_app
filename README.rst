@@ -86,7 +86,7 @@ Materiały
 
 Dodanie linku STATUS CAKE:
 
-.. image:: https://app.statuscake.com/button/index.php?Track=KnXSMCFrDk&Days=1&Design=1" /></a>
+.. image:: https://app.statuscake.com/AllStatus.php?tid=2935386
     :target: https://www.statuscake.com
 
 Dodawanie linku travis:
