@@ -31,7 +31,7 @@ docker_push: docker_build
 	docker logout;
 
 test_cov:
-	PYTHONPATH=. py.test -s --cov=.
+ PYTHONPATH=. py.test -s --cov=.
 
 test_xunit:
-	PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml
+ PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml
