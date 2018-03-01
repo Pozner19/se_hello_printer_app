@@ -1,4 +1,4 @@
-Simple Flask App
+Simple Flask App Poprawa próba
 ================
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
